@@ -1,0 +1,78 @@
+#tabela{
+    background-color: rgb(90, 153, 248);
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+
+
+#tabelaFeminino{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+#tabelaFeminino tr{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+#tabelaFeminino th{
+    display: flex;
+    justify-content: centro;
+}
+
+
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:  1px solid white;
+
+}
+
+.body{
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border:  1px solid white;
+
+}
+
+.Brasil2{
+    width: 40px;
+    height: auto;
+    border:  1px solid white;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

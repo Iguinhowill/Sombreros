@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOMBREROS</title>
+    <link rel="icon" type="imagem/png" href="/src/icon.png" />
+
+    <link rel="stylesheet" href="/main/css/reset.css">
+    <link rel="stylesheet" href="/main/css/style.css">
+    <link rel="stylesheet" href="/main/css/tabela.css">
+    <link rel="stylesheet" href="/main/css/jogos.css">
+    <link rel="stylesheet" href="/main/css/times.css">
+</head>
+
+<body>
+    <div id="header-content">
+        <ul id="navegation">
+            <li><a class="navegation-times" href="#times">TIMES</a></li>
+            <li><a class="navegation-jogos" href="#jogos">JOGOS</a></li>
+            <li><a class="navegation-tabela" href="#tabela">TABELA</a></li>
+        </ul>
+    </div>
+    <div id="main-content">
+        <div class="informativo">
+            <img class="imagem"
+                src="https://github.com/Iguinhowill/Interclasse/blob/main/interclasse-200111-removebg-preview.png?raw=true">
+            <div class="texto">
+                <h1> O que é?</h1>
+                <div class="paragrafos">
+                    <p class="primeiro-paragrafo">Os jogos interclasses é um evento organizado e promovido no âmbito
+                        escolar entre as turmas e séries. Cada escola detém particularidades na organização do evento, o
+                        qual varia de acordo com a disponibilidade de espaço físico, recursos humanos, materiais e
+                        calendário.</p>
+                    <p>Podemos entender também o interclasse como um momento de relaxamento dos estudos e maior
+                        interação entre alunos sejam eles da mesma turma ou não.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="times">
+            <h2 class="botoesCss primeiroBotao" onclick="showTeams('fotosDosTimes', 'bottun')">Times</h2>
+            <section class="fotosDosTimes" id="fotosDosTimes">
+
+                <section class="nono cssTimes">
+                    <article id="timeNono">
+                        <h3 class="nono-ano">9º ano</h3>
+                        <img class="imgTimes"
+                            src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg"
+                            alt="bandeira Brasil">
+                        <button onclick="showPicture('jogadores9AnoMasculino1', 'jogadores9AnoMasculino2')"
+                            class="button" id="button9">Jogadores</button>
+                    </article>
+                    <ul id="jogadores9AnoMasculino1" class="list-fotos">
+                        <li><img src="/src/9 ano/9-ano.jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (2).jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (3).jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (4).jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (5).jpeg" class="fotos"></li>
+                    </ul>
+                    <ul id="jogadores9AnoMasculino2" class="list-fotos outra">
+                        <li><img src="/src/9 ano/9-ano (6).jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (7).jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (8).jpeg" class="fotos"></li>
+                        <li><img src="/src/9 ano/9-ano (9).jpeg" class="fotos"></li>
+                    </ul>
+                </section>
+
+                <section class="primeiro cssTimes">
+                    <article id="timePrimeiro">
+                        <h3 class="primeiro-ano">1º Médio (Masculino)</h3>
+                        <img class="imgTimes"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png"
+                            alt="bandeira alemanha ou japão ">
+                        <p>ou</p>
+                        <img class="imgTimes"
+                            src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg"
+                            alt="bandeira alemanha ou japão ">
+                        <button onclick="showPicture('jogadores1AnoMasculino1', 'jogadores1AnoMasculino2')"
+                            class="button" id="button1M">Jogadores</button>
+
+                    </article>
+                    <ul>
+                        <li>
+                            <ul id="jogadores1AnoMasculino1" class="list-fotos">
+                                <li><img src="/src/1 ano/1-ano (0)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (2)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (13)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (14)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (16)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (18)m.jpeg" class="fotos"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul id="jogadores1AnoMasculino2" class="list-fotos outra">
+                                <li><img src="/src/1 ano/1-ano (15)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (19)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (20)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (21)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (22)m.jpeg" class="fotos"></li>
+                                <li><img src="/src/1 ano/1-ano (23)m.jpeg" class="fotos"></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="primeiro cssTimes">
+                    <article id="timePrimeiro">
+                        <h3 class="primeiro-ano">1º Médio (Feminino) </h3>
+                        <img class="imgTimes"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png"
+                            alt="bandeira alemanha ou japão ">
+                        <p>ou</p>
+                        <img class="imgTimes"
+                            src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg"
+                            alt="bandeira alemanha ou japão ">
+                        <button onclick="showPicture('jogadores1AnoFeminino1', 'jogadores1AnoFeminino2')" class="button"
+                            id="button1F">Jogadoras</button>
+                    </article>
+                    <ul id="jogadores1AnoFeminino1" class="list-fotos">
+                        <li><img src="/src/1 ano/1-ano (3)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (4)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (5)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (6)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (7)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (8)f.jpeg" class="fotos"></li>
+                    </ul>
+
+                    <ul id="jogadores1AnoFeminino2" class="list-fotos outra">
+                        <li><img src="/src/1 ano/1-ano (9)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (10)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (11)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (12)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/1 ano/1-ano (17)f.jpeg" class="fotos"></li>
+                    </ul>
+                </section>
+
+                <section class="segundo">
+                    <article id="timeSegundo">
+                        <h3 class="Segundo-ano">2º Médio (Masculino)</h3>
+                        <img class="imgTimes"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                            alt="bandeira republica Tcheca">
+                        <button onclick="showPicture('jogadores2AnoMasculino1', 'jogadores2AnoMasculino2')"
+                            class="button" id="button1M">Jogadores</button>
+
+                    </article>
+                    <ul id="jogadores2AnoMasculino1" class="list-fotos">
+                        <li><img src="/src/2 ano/2-ano (3)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (4)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (5)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (6)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (7)m.jpeg" class="fotos"></li>
+                    </ul>
+                    <ul id="jogadores2AnoMasculino2" class="list-fotos outra">
+                        <li><img src="/src/2 ano/2-ano (8)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (9)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (10)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (11)m.jpeg" class="fotos"></li>
+                    </ul>
+                </section>
+
+                <section class="segundo">
+                    <article id="timeSegundo">
+                        <h3 class="Segundo-ano">2º Médio (Feminino) </h3>
+                        <img class="imgTimes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png
+                    " alt="bandeira republica Tcheca">
+                        <button onclick="showPicture('jogadores2AnoFeminino1', 'jogadores2AnoFeminino2')" class="button"
+                            id="button1F">Jogadoras</button>
+                    </article>
+                    <ul id="jogadores2AnoFeminino1" class="list-fotos">
+                        <li><img src="/src/2 ano/2-ano (8)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (9)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (10)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (11)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (12)f.jpeg" class="fotos"></li>
+
+                    </ul>
+
+                    <ul id="jogadores2AnoFeminino2" class="list-fotos outra">
+                        <li><img src="/src/2 ano/2-ano (13)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (14)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (15)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (16)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/2 ano/2-ano (17)f.jpeg" class="fotos"></li>
+                    </ul>
+                </section>
+
+                <section class="terceiro">
+                    <article id="timeTerceiro">
+                        <h3 class="Terceiro-ano">3º Médio (Masculino)</h3>
+                        <img class="imgTimes"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png"
+                            alt="bandeira URSS">
+                        <button onclick="showPicture('jogadores3AnoMasculino1', 'jogadores3AnoMasculino2')"
+                            class="button" id="button1M">Jogadores</button>
+
+                    </article>
+                    <ul id="jogadores3AnoMasculino1" class="list-fotos">
+                        <li><img src="/src/3 ano/3-ano (7)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (8)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (9)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (10)m.jpeg" class="fotos"></li>
+
+                    </ul>
+
+                    <ul id="jogadores3AnoMasculino2" class="list-fotos outra">
+                        <li><img src="/src/3 ano/3-ano (0)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (12)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (13)m.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (11)m.jpeg" class="fotos"></li>
+                    </ul>
+                </section>
+
+                <section class="terceiro">
+                    <article id="timeTerceiro">
+                        <h3 class="terceiro-ano">3º Médio (Feminino) </h3>
+                        <img class="imgTimes"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png"
+                            alt="bandeira URSS">
+                        <button onclick="showPicture('jogadores3AnoFeminino1', 'jogadores3AnoFeminino2')" class="button"
+                            id="button1F">Jogadoras</button>
+                    </article>
+                    <ul id="jogadores3AnoFeminino1" class="list-fotos">
+                        <li><img src="/src/3 ano/3-ano (2)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (3)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (4)f.jpeg" class="fotos"></li>
+                    </ul>
+
+                    <ul id="jogadores3AnoFeminino2" class="list-fotos outra">
+                        <li><img src="/src/3 ano/3-ano (5)f.jpeg" class="fotos"></li>
+                        <li><img src="/src/3 ano/3-ano (6)f.jpeg" class="fotos"></li>
+                    </ul>
+                </section>
+            </section>
+
+
+            <h2 class="hidden botoesCss primeiroBotao" id="bottun" onclick="showTeams('fotosDosTimes', 'bottun')">Times
+            </h2>
+        </div>
+
+        <div id="jogos">
+            <h2 onclick="showGames('hideGames')" class="titulo botoesCss primeiroBotao">Horário dos jogos</h2>
+            <section id="hideGames" class="dias">
+
+
+                <p class="subtitulo Dia">Dia 1 (05/12): Basquete</p>
+                <p class="subtitulo">Horário: Início 08:00hr até 12:10hr </p>
+                <div class="divisao">
+                    <p class="esquerda">Masculino</p>
+                    <p class="esquerda">Feminino</p>
+                </div>
+                <article class="tabelas">
+                    <table class="tabela-jogosM">
+                        <tr class="tenta">
+                            <td class="blue">União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">Alemanha ou Japão
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca">
+                            </td>
+                            <td class="meio2 meio">X</td>
+                            <td class="red">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue">Vencedor do 1º jogo</td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 2º jogo</td>
+                        </tr>
+                    </table>
+
+
+                    <table class="tabela-jogosF">
+
+                        <tr>
+                            <td class="blue">
+                                República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca">
+                            </td>
+                            <td class="meio2" >X</td>
+                            <td class="red">
+                                União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+                            </td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">
+                                Alemanha ou Japão
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+                            </td>
+                            </td>
+                            <td class="meio2 meio">X</td>
+                            <td class="red">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue">Vencedor do 1º jogo</td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 2º jogo</td>
+                        </tr>
+                    </table>
+                </article>
+
+
+                <p class="subtitulo Dia">Dia 2 (06/12): Handebol</p>
+                <p class="subtitulo">Horário: Início 07:30hr até 12:10hr </p>
+                <div class="divisao">
+                    <p class="esquerda">Masculino</p>
+                    <p class="esquerda">Feminino</p>
+                </div>
+
+                <article class="tabelas">
+                    <table class="tabela-jogosM">
+                        <tr>
+                            <td class="blue">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                            <td class="meio2" >X</td>
+                            <td class="red">Alemanha ou Japão
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca"></td>
+                            </td>
+                            <td class="meio meio2">X</td>
+                            <td class="red">
+                                União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue">Vencedor do 1º jogo</td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 2º jogo</td>
+                        </tr>
+                    </table>
+
+
+                    <table class="tabela-jogosF">
+
+                        <tr>
+                            <td class="blue">
+                                Alemanha ou Japão
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+
+
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">
+                                República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca">
+                            </td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                            </td>
+                            <td class="meio meio2">X</td>
+                            <td class="red">
+                                União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue">Vencedor do 1º jogo</td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 2º jogo</td>
+                        </tr>
+                    </table>
+
+                </article>
+
+
+
+
+
+                <p class="subtitulo Dia">Dia 3 (07/12): Vôlei Misto</p>
+                <p class="subtitulo">Horário: Início 07:00hr até 12:20hr </p>
+                <div class="divisao">
+                    <p class="esquerda">Misto</p>
+                </div>
+
+                <article class="tabelas">
+                    <table class="tabela-jogosM">
+                        <tr>
+                            <td class="blue">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">
+                                Portugal <img class="Brasil"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">Alemanha ou Japão
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+                            </td>
+                            <td class="meio meio2">X</td>
+                            <td class="red">
+                                União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+                            </td>
+                        </tr>
+                        </tr>
+                        <tr>
+                            <td class="blue ">República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca"></td>
+                            </td>
+                            <td class="meio meio2">X</td>
+                            <td class="red">Vencedor do 1º jogo
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="blue">Vencedor do 2º jogo</td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 3º jogo</td>
+                        </tr>
+                    </table>
+
+                </article>
+
+
+
+
+                <p class="subtitulo Dia">Dia 4 (08/12): Futsal</p>
+                <p class="subtitulo">Horário: Início 07:30hr até 12:20hr </p>
+                <div class="divisao">
+                    <p class="esquerda">Masculino</p>
+                    <p class="esquerda">Feminino</p>
+                </div>
+
+                <article class="tabelas">
+                    <table class="tabela-jogosM">
+                        <tr>
+                            <td class="blue">Japão
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">
+                                República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca">
+
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">
+                                União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+
+
+                            </td>
+                            <td class="meio meio2">X</td>
+                            <td class="red">
+                                Alemanha
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 1º jogo</td>
+                        </tr>
+
+                        <tr>
+                            <td class="blue">Vencedor do 2º jogo
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 3º jogo</td>
+                        </tr>
+                    </table>
+
+
+                    <table class="tabela-jogosF">
+
+                        <tr>
+                            <td class="blue">
+                                Alemanha ou Japão
+                                <img class="JapAlemanha"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/255px-Flag_of_Germany.svg.png">
+                                <img class="JapAlemanha"
+                                    src="https://s4.static.brasilescola.uol.com.br/be/2022/11/bandeira-do-japao.jpg">
+
+
+                            </td>
+                            <td class="meio2">X</td>
+                            <td class="red">
+                                República Tcheca <img class="tcheca"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/2560px-Flag_of_the_Czech_Republic.svg.png"
+                                    alt="bandeira republica Tcheca">
+                            </td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue ">Brasil <img class="Brasil"
+                                    src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </td>
+                            </td>
+                            <td class="meio meio2">X</td>
+                            <td class="red">
+                                União das Repúblicas <br> Socialistas Soviéticas <img class="Urss"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/255px-Flag_of_the_Soviet_Union.svg.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="blue">Vencedor do 1º jogo</td>
+                            <td class="meio2">X</td>
+                            <td class="red">Vencedor do 2º jogo</td>
+                        </tr>
+                    </table>
+
+                </article>
+
+
+                <p class="subtitulo Dia">Dia 5 (09/12): Supresa</p>
+                <p class="subtitulo">Horário: Início 07:00hr até 12:20hr </p>
+
+
+                <h2 onclick="showGames('hideGames')" class="titulo botoesCss">Horário dos jogos</h2>
+            </section>
+        </div>
+
+
+
+<!--
+        <div id="tabela">
+            <h2>Tabela dos jogos</h2>
+
+
+            <h3 class="botoesCss botoesCss2" onclick="">Tabela Feminino</h3>
+            <section id="tabelaFeminino">
+                <table class="cssTable">
+                        <tr class="header">
+                            <th>Bandeira</th>
+                            <th class="brasil2">Nome</th>
+                            <th>Pontos</th>
+                            <th>Vitórias</th>
+                            <th>Empates</th>
+                            <th>Derrotas</th>
+                        </tr>
+                        <tr class="body">
+                            <th><img class="Brasil2"
+                                src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg">
+                            </th>
+                            <th>Brasil</th>
+                            <th>0</th>
+                            <th>0</th>
+                            <th>0</th>
+                            <th>0</th>
+                        </tr>
+                </table>
+            </section>
+
+
+            <h3 class="botoesCss botoesCss2">Tabela Masculino</h3>
+            <section id="tabelaMasculino">
+                <table style="width:100%">
+                    <thead>
+
+                    </thead>
+                </table>
+            </section>
+
+         </div> -->
+    </div>
+    <footer id="footer">
+        <p>© 2022 SOMBREROS. Todos os direitos reservados.</p>
+        <img src="https://github.com/Iguinhowill/Interclasse/blob/main/8686563d-3e17-4614-8d49-3742818d945c.jpg?raw=true"
+            alt="">
+    </footer>
+
+    <script src="/main/js/script.js"></script>
+</body>
+
+</html>
